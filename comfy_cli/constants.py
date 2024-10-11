@@ -42,6 +42,7 @@ CONFIG_KEY_INSTALL_EVENT_TRIGGERED = "install_event_triggered"
 CONFIG_KEY_BACKGROUND = "background"
 
 CIVITAI_API_TOKEN_KEY = "civitai_api_token"
+HF_API_TOKEN_KEY = "hf_api_token"
 
 DEFAULT_TRACKING_VALUE = True
 
@@ -79,4 +80,4 @@ SUPPORTED_PT_EXTENSIONS = (".ckpt", ".pt", ".bin", ".pth", ".safetensors")
 NODE_ZIP_FILENAME = "node.zip"
 
 # The default version to download from python-build-standalone.
-DEFAULT_STANDALONE_PYTHON_DOWNLOAD_VERSION = "3.12.6"
+DEFAULT_STANDALONE_PYTHON_DOWNLOAD_VERSION = "3.12.7"
